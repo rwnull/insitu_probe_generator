@@ -20,7 +20,7 @@
 
 #### The reverse complement of your cDNA of interest.
   + There are many sites on the web that can do this for you. [Here](https://www.bioinformatics.org/sms/rev_comp.html) is one.
-  + This program will not double check that you are using DNA symbols (ATCG). So if you put in U's you'll get U's out. If you use amino acid symbols, you'll get amino acid symbols back.
+  + This program will *not* double check that you are using DNA symbols (ATCG). You can type in Homer's Iliad if you like, and you will get back probes pertaining to Nereids, but they won't really help you search for the mRNA of your organism's various Argonauts.
 
 #### A way to create .XLSX format files
   + This could be MS Excel, Google Sheets, etc. 
