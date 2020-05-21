@@ -4,15 +4,14 @@
 ### What you'll find here:
 
 + We have intentionally kept the program simple to avoid having many dependencies, however you will need to run Python in terminal or Jupyter. **If you need help with this, see the [NEW_TO_PYTHON_JUPYTER.md](https://github.com/rwnull/insitu_probe_generator/blob/master/NEW_TO_PYTHON_JUPYTER.md) guide.**
-
 + We are providing the code written in Python 2 and Python 3. Choose the program that matches your version of Python. 
-
 + Also provided is the code in Jupyter notebook format (.ipynb) (again written in Python 2 or 3).  
   *This is the easiest way to run the program.*
 
 ### What you will need to provide:
 
-#### Some naming convention in mind for your output - We like to use a format *Organism_GeneSymbol_ProbePairNumber_Amplifier* where:
+#### Some naming convention in mind for your output.
+##### We like to use a format *Organism_GeneSymbol_ProbePairNumber_Amplifier* where:
   + *Organism* - refers to the species you are working in (we work on a few so it helps us keep things straight).
   + *GeneSymbol* - A way of identifying what gene this probe set FISHes for.
   + *ProbePairNumber* - The total number of pairs of probes this set includes (e.g. 25, 30, or 35)
