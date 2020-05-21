@@ -1,5 +1,5 @@
 # insitu_probe_generator
-##Generate HCR-style Probe Pairs for fluorescent in situ mRNA visualization
+## Generate HCR-style Probe Pairs for fluorescent in situ mRNA visualization
 
 In this directory you will find a few options to generate your own HCR probes.
 
