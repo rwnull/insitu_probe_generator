@@ -3,7 +3,7 @@
 
 In this directory you will find a few options to generate your own HCR probes.
 
-+ We have intentionally kept the program simple to avoid having many dependencies, however you will need to run Python in terminal or Jupyter. **If you need help with this, see "DEPENDENCIES.md" file in the main directory.**
++ We have intentionally kept the program simple to avoid having many dependencies, however you will need to run Python in terminal or Jupyter. **If you need help with this, see ["NEW_TO_PYTHON_JUPYTER.md"](https://github.com/rwnull/insitu_probe_generator/blob/master/NEW_TO_PYTHON_JUPYTER.md)**
 
 + We are providing the code written in Python 2.7 and Python 3. Choose the program that matches your version of Python. 
 
