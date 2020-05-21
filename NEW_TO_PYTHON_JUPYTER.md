@@ -4,7 +4,7 @@ We feel you, we're not particularly gifted with programming either. Here's what 
 
 1. You will have to have Python on your machine. 
   + Python comes in a few versions: 
-    1. Python 2.7 is an older release but because it was around for a long time many libraries have been written for it. However, it is going to be phased out eventually and no longer supported.
+    1. Python 2.7 is an older release but because it was around for a long time many libraries have been written for it. Eventually however, it is going to be phased out and no longer supported.
     2. Python 3 is the newer version that will continue to be developed and supported.
   + If you just want to get started, we'd say go with Python 3.
   + [Miniconda](https://docs.conda.io/en/latest/miniconda.html) is a basic, helpful Python installer that will let you install your flavor of Python as well as make installing add-on programs easier.
