@@ -11,5 +11,5 @@ We feel you, we're not particularly gifted with programming either. Here's what 
 
 2. We wrote our HCR probe maker with an interactive interface, [Jupyter](https://jupyter.org/index.html), in mind.
   + See step 1 if you don't have Python installed on your machine.
-  + To get Jupyter follow this [guide]([https://jupyterlab.readthedocs.io/en/stable/getting_started/installation.html)
+  + To get Jupyter follow this [guide.](https://jupyterlab.readthedocs.io/en/stable/getting_started/installation.html)
   + Once installed, you can run the ".ipynb" programs and can ignore the commandline ".py" versions.
