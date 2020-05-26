@@ -81,8 +81,8 @@ pairlib={}
 idtlibu={}
 idtlibd={}
 while position>52: #52 is the cutoff for fitting an entire pair at the end of the gene. the program will cycle back over the RNA if not limited like this
-    upstream=upinit+uspc+str(fullseq[position-25:position])
-    downstream=str(fullseq[position-52:position-27])+dspc+dninit
+    downstream=upinit+uspc+str(fullseq[position-25:position])
+    upstream=str(fullseq[position-52:position-27])+dspc+dninit
     pairlib[pair]=str(str(cdna-position)+"     "+str(fullseq[position-25:position])+"     "+str(fullseq[position-52:position-27])+"     "+str(cdna-position+52))
     idtlibu[pair]=str(amplifier+"_"+str(name)+"_"+str(count)+"     "+upstream)
     idtlibd[pair]=str(amplifier+"_"+str(name)+"_"+str(count)+"     "+downstream)
