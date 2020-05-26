@@ -5,7 +5,7 @@ __author__ = "Ryan W Null"
 __copyright__ = "Copyright 2019-2020, The Ozpolat Lab (http://bduyguozpolat.org/)"
 __credits__ = ["B. Duygu Ozpolat"]
 __license__ = "GPL 3.0"
-__version__ = "2020_1.0"
+__version__ = "2020_2.0"
 
 
 
