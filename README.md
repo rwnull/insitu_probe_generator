@@ -1,5 +1,5 @@
 # insitu_probe_generator
-## Generate HCR-style Probe Pairs for fluorescent in situ mRNA visualization
+## Generate HCR-3.0-style Probe Pairs for fluorescent *in situ* mRNA visualization
 
 ### Intention of this program:
 
