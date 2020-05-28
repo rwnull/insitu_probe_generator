@@ -1,6 +1,10 @@
 # insitu_probe_generator
 ## Generate HCR-style Probe Pairs for fluorescent in situ mRNA visualization
 
+### Intention of this program:
+
+We were excited to venture into the realm of quick, easy, mutliplexable *in situ* hybridizations presented by the Hybridization Chain Reaction methodology (Choi et al. Development 2018) . We were also limited in budget, discouraged by the lack of control over probe design, and uncomfortable with the lack of transparency when ordering probes. As a result, we wrote this program that allows us far greater control and ease of ordering probes that mesh with the HCR system of reaction and amplification reagents.
+
 ### What you'll find here:
 
 + We have intentionally kept the program simple to avoid having many dependencies, however you will need to run Python in terminal or Jupyter. **If you need help with this, see the [NEW_TO_PYTHON_JUPYTER.md](https://github.com/rwnull/insitu_probe_generator/blob/master/NEW_TO_PYTHON_JUPYTER.md) guide.**
@@ -11,12 +15,12 @@
 ### What you will need to provide:
 
 #### Some naming convention in mind for your output.
-##### We like to use a format *Organism_GeneSymbol_ProbePairNumber_Amplifier* where:
+##### We like to use a format *Amplifier_Organism_GeneSymbol_ProbePairNumber* where:
+  + *Amplifier* - Which hairpin amplifier these probes are compatible with (e.g. B1, B2, B3, B4)
   + *Organism* - refers to the species you are working in (we work on a few so it helps us keep things straight).
   + *GeneSymbol* - A way of identifying what gene this probe set FISHes for.
   + *ProbePairNumber* - The total number of pairs of probes this set includes (e.g. 25, 30, or 35)
-  + *Amplifier* - Which hairpin amplifier these probes are compatible with (e.g. B1, B2, B3, B4)
-  + **Example PdumVasa_25_B2** for *Platynereis dumerilii vasa* 25 probe pairs compatible with the HCR B2 amplifier hairpins.
+  + **Example B2_PdumVasa_25** for 25 pairs of probes to *Platynereis dumerilii vasa* compatible with the B2 amplifier hairpins.
 
 #### The reverse complement of your cDNA of interest.
   + There are many sites on the web that can do this for you. [Here](https://www.bioinformatics.org/sms/rev_comp.html) is one.
