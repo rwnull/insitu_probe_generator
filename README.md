@@ -1,4 +1,6 @@
 # [Ozpolat lab](https://bduyguozpolat.org/research)
+[![DOI](https://zenodo.org/badge/265590174.svg)](https://zenodo.org/badge/latestdoi/265590174)
+
 Welcome!
 
 ## insitu_probe_generator 
