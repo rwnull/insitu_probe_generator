@@ -1,8 +1,8 @@
-# insitu_probe_generator 
+# [Ozpolat lab](https://bduyguozpolat.org/research)
+Welcome!
+
+## insitu_probe_generator 
 Generate HCR-3.0-style Probe Pairs for fluorescent *in situ* mRNA visualization
-
-## [Ozpolat lab](https://bduyguozpolat.org)
-
 
 ### Intention of this program:
 
