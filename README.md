@@ -1,9 +1,12 @@
-# insitu_probe_generator
+# insitu_probe_generator 
 ## Generate HCR-3.0-style Probe Pairs for fluorescent *in situ* mRNA visualization
+
+## [Ozpolat lab](https://bduyguozpolat.org)
+
 
 ### Intention of this program:
 
-We were excited to venture into the realm of quick, easy, mutliplexable *in situ* hybridizations presented by the Hybridization Chain Reaction methodology (Choi et al. Development 2018) . We were also limited in budget, discouraged by the lack of control over probe design, and uncomfortable with the lack of transparency when ordering probes. As a result, we wrote this program that allows us far greater control and ease of ordering probes that mesh with the HCR system of reaction and amplification reagents.
+We were excited to venture into the realm of quick, easy, mutliplexable *in situ* hybridizations presented by the Hybridization Chain Reaction methodology (Choi et al. Development 2018) . We wanted a budget-friendly way of exploring gene expression, that allowed for complete control over probe design, while allowing us to also know the exact sequences of our probes to aid publication and reproducibility. As a result, we wrote this program to allow us ease of ordering probes that mesh with the published HCR system of reaction and amplification reagents.
 
 ### What you'll find here:
 
