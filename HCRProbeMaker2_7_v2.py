@@ -119,7 +119,7 @@ while position>52: 											# 52 is the cutoff for fitting an entire pair at t
     pairlib[pair]=str(str(pair)+"\t"+str(cdna-position+25)+"\t"+str(fullseq[position-25:position])+"\t"+str(cdna-position)+"\t\t"+str(cdna-position+52)+"\t"+str(fullseq[position-52:position-27])+"\t"+str(cdna-position+27))
     idtlibu[pair]=str(amplifier+"_"+str(name)+"_"+str(count)+"\t"+upinit+uspc+upstream)   		# This is a library used for IDT output
     idtlibd[pair]=str(amplifier+"_"+str(name)+"_"+str(count)+"\t"+downstream+dspc+dninit)
-    position-=54      											# 54 is the number of bases covered by one probe set, in the HCRv3 paper each hyb pair,52bp in length, was given 56bp of space, or ~1 hybridizing pair length 
+    position-=54      											# 54 is the number of bases covered by one probe set (25bp probe 1, 2bp spacer, 25bp probe 2, 2bp spacer). 
     print str(pair)+"\t"+upinit+"\t"+uspc+"\t"+upstream+"\t\t"+downstream+"\t"+dspc+"\t"+dninit
     if pair<count:
         pair+=1
