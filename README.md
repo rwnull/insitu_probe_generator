@@ -29,4 +29,4 @@ We were excited to venture into the realm of quick, easy, mutliplexable *in situ
 #### A way to create .XLSX format files
   + This could be MS Excel, Google Sheets, etc. 
   + IDT only allows .XLSX format inputs for [ordering OPools](https://www.idtdna.com/pages/products/custom-dna-rna/dna-oligos/custom-dna-oligos/opools-oligo-pools), so saving as .CSV will not work.
-  + This program will spit out a copy-pastable dataframe that IDT will recognize, you just need to supply the .XLSX container.
+  + This program will spit out a more-or-less copy-pastable dataframe that IDT will recognize, you just need to supply the .XLSX container. You may need to use the ["split text into columns" function](https://support.office.com/en-us/article/split-text-into-different-columns-with-the-convert-text-to-columns-wizard-30b14928-5550-41f5-97ca-7a3e9c363ed7). 
