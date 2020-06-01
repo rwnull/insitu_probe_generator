@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-__author__ = "Ryan W Null"
+__author__ = "Ryan W Null, https://github.com/rwnull/insitu_probe_generator"
 __copyright__ = "Copyright 2019-2020, The Ozpolat Lab (http://bduyguozpolat.org/)"
 __credits__ = ["B. Duygu Ozpolat"]
 __license__ = "GPL 3.0"
