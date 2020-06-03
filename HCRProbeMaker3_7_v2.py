@@ -5,7 +5,7 @@ __author__ = "Ryan W Null, https://github.com/rwnull/insitu_probe_generator"
 __copyright__ = "Copyright 2019-2020, The Ozpolat Lab (http://bduyguozpolat.org/)"
 __credits__ = ["B. Duygu Ozpolat"]
 __license__ = "GPL 3.0"
-__version__ = "2020_2.0"
+__version__ = "2020_0.2.0"
 
 
 
@@ -105,7 +105,7 @@ print("")
 print("Figure Layout:")
 print("")
 print(str(amplifier+"_"+str(name)+"_"+str(count)))							# Name based on inputs
-print("Pair#\t1st_Half_of_Initiator_I1\tSpacer\tProbe\t\tProbe\tSpacer\t2nd_Half_of_Initiator_I1")	# HEADER of Output
+print("Pair#,1st Half of Initiator I1,Spacer,Probe,,Probe,Spacer,2nd Half of Initiator I1")	# HEADER of Output
 
 
 position=cdna-pause     										# This controls how far from the 5'end of the mRNA probes begin 
@@ -116,11 +116,11 @@ idtlibd={}
 while position>52: 											#52 is the cutoff for fitting an entire pair at the end of the gene. the program will cycle back over the RNA if not limited like this
     downstream=str(fullseq[position-25:position])
     upstream=str(fullseq[position-52:position-27])
-    pairlib[pair]=str(str(pair)+"\t"+str(cdna-position+25)+"\t"+str(fullseq[position-25:position])+"\t"+str(cdna-position)+"\t\t"+str(cdna-position+52)+"\t"+str(fullseq[position-52:position-27])+"\t"+str(cdna-position+27))
-    idtlibu[pair]=str(amplifier+"_"+str(name)+"_"+str(count)+"\t"+upinit+uspc+upstream)   		# This is a library used for IDT output
-    idtlibd[pair]=str(amplifier+"_"+str(name)+"_"+str(count)+"\t"+downstream+dspc+dninit)
+    pairlib[pair]=str(str(pair)+","+str(cdna-position+25)+","+str(fullseq[position-25:position])+","+str(cdna-position)+",,"+str(cdna-position+52)+","+str(fullseq[position-52:position-27])+","+str(cdna-position+27))
+    idtlibu[pair]=str(amplifier+"_"+str(name)+"_"+str(count)+","+upinit+uspc+upstream)   		# This is a library used for IDT output
+    idtlibd[pair]=str(amplifier+"_"+str(name)+"_"+str(count)+","+downstream+dspc+dninit)
     position-=54      											# 54 is the number of bases covered by one probe set (25bp probe 1, 2bp spacer, 25bp probe 2, 2bp spacer). 
-    print(str(pair)+"\t"+upinit+"\t"+uspc+"\t"+upstream+"\t\t"+downstream+"\t"+dspc+"\t"+dninit)
+    print(str(pair)+","+upinit+","+uspc+","+upstream+",,"+downstream+","+dspc+","+dninit)
     if pair<count:
         pair+=1
     else:
@@ -134,7 +134,7 @@ print("")
 print("")
 print("Below are the hybridizing sequences and where they align to the cDNA:")
 print("")
-print("Pair#\tcDNAcoord\tProbe\tcDNAcoord\t\tcDNAcoord\tProbe\tcDNAcoord")				# Header for Output
+print("Pair#,cDNAcoord,Probe,cDNAcoord,,cDNAcoord,Probe,cDNAcoord")				# Header for Output
 i=1
 while i <= pair:
     print(pairlib[i])
@@ -150,7 +150,7 @@ print("")
 print("Below is in IDT oPool submission_format.")
 print("Copy and Paste this into an XLSX file for submission to IDT.")
 print("")
-print("Pool_name\tsequence")										#Header for output
+print("Pool name,sequence")										#Header for output
 i=1
 while i <= pair:
     print(str(idtlibu[i]))
@@ -171,7 +171,6 @@ print(">"+name)
 print(fullseq)
 
 
-# In[ ]:
 
 
 
