@@ -57,7 +57,7 @@ We were excited to venture into the realm of quick, easy, mutliplexable *in situ
     + This is where you determine what amplifier hairpin will be used to visualize the probes. 
     + The input requires you have the letter 'b' but is not case sensitive. ex. "b1" -or- "B7" both will work fine, but "7" or "B20" will raise an error.
     + B1-B5 were described by HMT Choi et al. in their [2014 ACS Nano paper](https://pubs.acs.org/doi/full/10.1021/nn405717p)
-    + B7,B9,B10,B11,B13,B14,B15, and B17 were described by T Wang et al. in their [2020 BioRxiv preprint](https://www.biorxiv.org/content/10.1101/274456v3)
+    + B7,B9,B10,B11,B13,B14,B15, and B17 were described by Y Wang et al. in their [2020 BioRxiv preprint](https://www.biorxiv.org/content/10.1101/274456v3)
   + "pause" -> prompt: "How many bases from 5' end of the Sense RNA before starting to hybridize? ex. 100 "
     + If you want to skip the first 'N' bases of your sequence, or to create a "phase-shift" control, you can use this input to define how many bases you want to skip before making probes.
   + "polyAT/polyCG" -> prompt: "What is the max acceptable length for (polyA or polyT)/(polyC or polyG) homopolymers? "
