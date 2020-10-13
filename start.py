@@ -3,6 +3,7 @@ def start():
     # These are required inputs
     name        = str(input("What is the gene name? (ex. eGFP) "))
     fullseq     = str(input("Enter the sense sequence of your cDNA without spaces or returns. "))
+    fullseq = fullseq.upper()
     amplifier   = str(input("What is the amplifier to be used with this probe set? B1,B2,B3,B4,B5,B7,B9,B10,B11,B13,B14,B15,or B17  ").upper())
     if amplifier not in ['B1','B2','B3','B4','B5','B7','B9','B10','B11','B13','B14','B15','B17']:
         print("That choice was not recognized. Try again. ")
