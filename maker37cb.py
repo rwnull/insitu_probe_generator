@@ -15,7 +15,7 @@ def maker(name,fullseq,amplifier,pause,choose,polyAT,polyCG,BlastProbes,db,dropo
     __credits__ = ['M. Desmond Ramirez - ORCID_0000-0003-3873-6999','B. Duygu Ozpolat - ORCID_0000-0002-1900-965X']
     __source__ = "https://github.com/rwnull/insitu_probe_generator"
     __license__ = "GPL 3.0"
-    __version__ = "2020_0.3.0"
+    __version__ = "2020_0.3.1"
     __DOI__ = "https://doi.org/10.5281/zenodo.3871970"
 
     def amp(ampl): 
