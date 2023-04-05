@@ -131,9 +131,9 @@ def maker(name,fullseq,amplifier,pause,choose,polyAT,polyCG,BlastProbes,db,dropo
                         a+=1
                         pass     
                 return(reduced)
-        elif  int(numbr) >=  int(len(seqs)):
-            print("There was were fewer than "+str(numbr)+" pairs, no action taken.")
-            return(seqs)
+            elif int(numbr) >=  int(len(seqs)):
+                print("There was were fewer than "+str(numbr)+" pairs, no action taken.")
+                return(seqs)
         else:
             return(seqs)
 
