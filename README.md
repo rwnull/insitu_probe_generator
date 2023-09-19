@@ -116,3 +116,29 @@ The program will return several outputs that will help with ordering, figure con
   + The third and fourth outputs provide location data for each half of a probe pair in relation to the input sequence.
     + The third output shows the probes's base locations numerically.
     + The fourth output spits back a representation of the cDNA where all of the half-pair probe sequences's binding sites are shown along the 5'->3' of the sense strand cDNA. Non-bound regions are converted to 'n'.
+
+
+## Citation
+  If you use this program to create probe pairs, please cite this paper in your publication.
+
+  ```
+  Kuehn, E., Clausen, D. S., Null, R. W., Metzger, B. M., Willis, A. D., & Özpolat, B. D. (2022). 
+  Segment number threshold determines juvenile onset of germline cluster expansion in Platynereis dumerilii. 
+  Journal of Experimental Zoology Part B: Molecular and Developmental Evolution, 338, 225– 240. 
+  ```
+  Kindly, consider including the work that this was built upon as well.
+  ```
+  Choi HMT, Schwarzkopf M, Fornace ME, Acharya A, Artavanis G, Stegmaier J, Cunha A, Pierce NA. 
+  Third-generation in situ hybridization chain reaction: multiplexed, quantitative, sensitive, versatile, robust. 
+  Development. 2018 Jun 26;145(12):dev165753. doi: 10.1242/dev.165753. PMID: 29945988; PMCID: PMC6031405.
+  ```
+  ```
+  Multiplexed in situ protein imaging using DNA-barcoded antibodies with extended hybridization chain reactions.
+  Yu Wang, Yitian Zeng, Sinem K. Saka, Wenxin Xie, Isabel Goldaracena, Richie E. Kohman, Peng Yin, George M. Church
+  bioRxiv 274456; doi: https://doi.org/10.1101/274456
+  ```
+  ```
+  Tsuneoka Y, Funato H. 
+  Modified in situ Hybridization Chain Reaction Using Short Hairpin DNAs. 
+  Front Mol Neurosci. 2020 May 12;13:75. doi: 10.3389/fnmol.2020.00075. PMID: 32477063; PMCID: PMC7235299.
+  ```
